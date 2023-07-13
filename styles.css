@@ -1,0 +1,42 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  img {
+    display: block;
+    margin: 20px auto;
+    max-width: 20%;
+  }
+  
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+  }
+  
+  .box-sizing {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  .highlight {
+    background-color: blue;
+    color: white;
+  }
+  
+  .float-example {
+    float: right;
+    margin: 20px;
+  }
+  
